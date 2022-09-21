@@ -1,0 +1,11 @@
+LHLD 2501H   
+XCHG        
+LHLD 2503H     
+MOV A, E     
+SUB L        
+MOV L, A      
+MOV A, D     
+SBB H       
+MOV H, A    
+SHLD 2505H   
+HLT         
